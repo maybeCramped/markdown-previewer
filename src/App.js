@@ -1,7 +1,9 @@
+import { Provider } from "react-redux";
 import "./App.css";
 import TextArea from "./components/TextArea";
+import store from "./helpers/store";
 
-function App() {
+const App =()=> {
   return (
     <div className="App">
       <div className="container">
@@ -10,5 +12,11 @@ function App() {
     </div>
   );
 }
-
-export default App;
+const Wrapper = () => {
+  return(
+  <Provider store={store}>
+    <App/>
+  </Provider>
+  );
+}
+export default Wrapper;
