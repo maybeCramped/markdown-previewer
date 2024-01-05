@@ -1,0 +1,21 @@
+.Previewer-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1%;
+  width: 40%;
+  height: 50%;
+  border: 1px solid #6a6969;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.Previewer-header {
+  background-color: rgb(21, 165, 165);
+  text-align: left;
+  padding-left: 4%;
+  font-weight: bold;
+}
+.Previewer-content {
+  padding: 10px;
+  font-size: large;
+  text-align: left;
+  background-color: rgb(145, 248, 213);
+}
